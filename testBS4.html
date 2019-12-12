@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="jumbotron text-center">
+		<h1>My First Bootstrap Page</h1>
+		<p>Resize this responsive page to see the effect!</p> 
+	</div>
+
+	<div class="container-fluid p-3 my-3">
+		<div class="row border">
+			<div class="col-sm-3 border">
+				<h3>Column 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			</div>
+			<div class="col-sm-3">
+				<h3>Column 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			</div>
+			<div class="col-sm-3">
+				<h3>Column 3</h3>        
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			</div>
+			<div class="col-sm-3">
+				<h3>Column 4</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			</div>
+		</div>
+		<br><br>
+		<div class="row border">
+			<div class="col-sm-4 border">
+			</div>
+			<div class="col-sm-8 border">
+				<p>Hello</p>
+			</div>
+		</div>
+
+		<blockquote class="blockquote">
+			<p>Mình làm từ xương từ da cafe thuốc lá và 250 ly đồ có cồn ...</p>
+			<footer class="blockquote-footer">Cá Hồi Hoang</footer>
+		</blockquote>
+
+		<p class="font-weight-bold text-black-50 bg-info">Trần Thị Quỳnh Như</p>
+
+
+		<table class="table-hover">
+			<thead class="thead-dark">
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+				</tr>
+				<tr>
+					<td>Mary</td>
+					<td>Moe</td>
+					<td>mary@example.com</td>
+				</tr>
+				<tr>
+					<td>July</td>
+					<td>Dooley</td>
+					<td>july@example.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="alert alert-info alert-dismissible">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
+		</div>
+		
+		<h1>Nav Bar</h1>
+		<nav class="navbar navbar-expand-sm bg-dark sticky-top">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="pill" href="#hello">Hello</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#bye">Bye</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#see">See you</a>
+				</li>
+			</ul>
+		</nav>
+
+		<button type="button" class="btn btn-outline-info">Hello World</button>
+		<a href="#" class="btn btn-info">Love N 3000 </a>
+		<button class="btn btn-primary">
+			<span class="spinner-border spinner-border-sm"></span>
+			Loading..
+		</button>
+		<br>
+		<h1>Button Group</h1>
+		<div class="btn-group-vertical">
+			<button type="button" class="btn btn-info">Dota 2</button>
+			<button type="button" class="btn btn-info">PUBG</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Resident Evil</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">RE3 : Nemesis</a>
+					<a class="dropdown-item" href="#">RE2</a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<span class="badge-info" style="font-size: 30px;">Hello</span>
+		<br>
+		<h1>Progess bar</h1>
+		<div class="progress" style="height: 24px;">
+			<div class="progress-bar bg-info" style="width: 70%">70%</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar" style="width: 40%">40%</div>
+			<div class="progress-bar bg-danger" style="width: 20%">20%</div>
+		</div>
+		<br>
+		<h1>Pagination</h1>
+		<ul class="pagination justify-content-center">
+			<li class="page-item disabled"><a class="page-link" href="#">Pre</a></li>
+			<li class="page-item"><a class="page-link" href="#">1</a></li>
+			<li class="page-item active"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item"><a class="page-link" href="#">Next</a></li>
+		</ul>
+		<br>
+		<h1>List Group</h1>
+		<div class="list-group list-group-flush">
+			<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Duy Tan
+				<span class="badge badge-pill badge-primary">23</span>
+			</a>
+			<a href="#" class="list-group-item list-group-item-action">Kinh Te</a>
+		</div>
+		<br>
+		<h1>Card</h1>
+		<div class="row">
+			<div class="col">
+				<center>
+					<div class="card" style="width: 300px;">
+						<img src="meo1.jpg" class="card-img-top" width="100%">
+						<div class="card-body">
+							<center>
+								<h3>Mèo 1</h3>
+								<p>Thích ăn pate, đéo ăn cơm</p>
+								<a class="btn btn-info" href="#">Thích thì mua k thích thì mua</a>
+							</center>
+						</div>
+					</div>
+				</center>
+			</div>
+			<div class="col">
+				<center>
+					<div class="card" style="width: 300px;">
+						<img src="meo2.jpg" class="card-img-top" width="100%">
+						<div class="card-body">
+							<center>
+								<h3>Mèo 2</h3>
+								<p>Ăn pate, ăn hạt, ăn cá, cũng đéo ăn cơm</p>
+								<a class="btn btn-info" href="#">Nhắm đủ tiền không mà mua ? </a>
+							</center>
+						</div>
+					</div>
+				</center>
+			</div>
+			<div class="col">
+				<center>
+					<div class="card" style="width: 300px;">
+						<img src="meo3.jpg" class="card-img-top" width="100%">
+						<div class="card-body">
+							<center>
+								<h3>Mèo 3</h3>
+								<p>Giống 2 con ml trên, đéo ăn cơm</p>
+								<a class="btn btn-info" href="#">Mua đeeeeeee</a>
+							</center>
+						</div>
+					</div>
+				</center>
+			</div>
+		</div>
+
+		<br>
+		<h1>Dropdown</h1>
+		<div class="dropdown dropright">
+			<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+			<div class="dropdown-menu">
+				<h4 class="dropdown-header">Select</h4>
+				<a class="dropdown-item">Dropdown 1</a>
+				<a class="dropdown-item">Dropdown 2</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item">Dropdown 3</a>
+			</div>
+		</div>
+
+		<h1>Nav</h1>
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a class="nav-link active" data-toggle="pill" href="#hello">Hello</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="pill" href="#bye">Bye</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="pill" href="#see">See you</a>
+			</li>
+		</ul>
+		<!-- 			Tab contents -->
+		<div class="tab-content">
+			<div class="container tab-pane active" id="hello">
+				<h1>Lô con c*c</h1>
+			</div>
+			<div class="container tab-pane fade" id="bye">
+				<h1>tiễn khách</h1>
+			</div>
+			<div class="container tab-pane fade" id="see">
+				<h1>cút</h1>
+			</div>
+		</div>
+
+		
+			
+		
+
+	</div>
+
+</body>
+</html>
